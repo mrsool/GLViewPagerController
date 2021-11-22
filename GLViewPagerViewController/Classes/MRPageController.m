@@ -24,27 +24,27 @@
     self.dataSource = self;
     /// 设置数据委托
     self.delegate = self;
-    /// 是否固定标签宽度
-    self.fixTabWidth = false;
-    /// Tab之间边距
-    self.padding = 0;
-    /// 是否填充tabs满屏幕
-    self.fullfillTabs = false;
-    /// 固定指示器宽度
-    self.fixIndicatorWidth = false;
-    /// 指示器宽度
-    self.indicatorWidth = 20;
-    /// 指示器颜色
-    self.indicatorColor = [UIColor whiteColor];
-    /// 头边距
-    self.leadingPadding = 0;
-    /// 尾边距
-    self.trailingPadding = 0;
-    /// 默认显示页
-    ///self.defaultDisplayPageIndex = 0;
-    /// Tab动画
-    
-    self.tabAnimationType = GLTabAnimationType_none;
+//    /// 是否固定标签宽度
+//    self.fixTabWidth = false;
+//    /// Tab之间边距
+//    self.padding = 0;
+//    /// 是否填充tabs满屏幕
+//    self.fullfillTabs = false;
+//    /// 固定指示器宽度
+//    self.fixIndicatorWidth = false;
+//    /// 指示器宽度
+//    self.indicatorWidth = 20;
+//    /// 指示器颜色
+//    self.indicatorColor = [UIColor whiteColor];
+//    /// 头边距
+//    self.leadingPadding = 0;
+//    /// 尾边距
+//    self.trailingPadding = 0;
+//    /// 默认显示页
+//    ///self.defaultDisplayPageIndex = 0;
+//    /// Tab动画
+//    
+//    self.tabAnimationType = GLTabAnimationType_none;
 
     
     
