@@ -13,6 +13,8 @@
 		9233B706B9EA8F6050D8981086FBBF65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9F9BA6173E93DB071CF52EC0567AC388 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A2BF9B8B3738B701B2253CD1B24484ED /* Pods-GLViewPagerViewControllerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E25F135E6881799C5BACADAB9C11BE6 /* Pods-GLViewPagerViewControllerUITests-dummy.m */; };
+		A5043FFB274B7D130069B2F2 /* MRPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = A5043FF9274B7D130069B2F2 /* MRPageController.h */; };
+		A5043FFC274B7D130069B2F2 /* MRPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5043FFA274B7D130069B2F2 /* MRPageController.m */; };
 		CD9B484845DFC5ADEB13F4F2B581FB47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F3021B5EB13E7CF6ABBE69998EC8B95D /* Pods-GLViewPagerViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59236C16C8D1E3EDB5E139B5823EAB07 /* Pods-GLViewPagerViewController-dummy.m */; };
 /* End PBXBuildFile section */
@@ -36,13 +38,13 @@
 
 /* Begin PBXFileReference section */
 		0E25F135E6881799C5BACADAB9C11BE6 /* Pods-GLViewPagerViewControllerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLViewPagerViewControllerUITests-dummy.m"; sourceTree = "<group>"; };
-		0E580F53B708392F992959A6FED4AF3B /* libGLViewPagerViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGLViewPagerViewController.a; path = libGLViewPagerViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E580F53B708392F992959A6FED4AF3B /* libGLViewPagerViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGLViewPagerViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDDE743780FA678030DBABC71093002 /* Pods-GLViewPagerViewControllerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLViewPagerViewControllerUITests-resources.sh"; sourceTree = "<group>"; };
 		2D1B19C971C8A4143D92139412F1A8EF /* Pods-GLViewPagerViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLViewPagerViewController.release.xcconfig"; sourceTree = "<group>"; };
-		3534C1F5A51C3FD1C727B7430FC07CF5 /* libPods-GLViewPagerViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GLViewPagerViewController.a"; path = "libPods-GLViewPagerViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3534C1F5A51C3FD1C727B7430FC07CF5 /* libPods-GLViewPagerViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GLViewPagerViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C2A9EC38567201FBE2C7EC434BA5BF /* Pods-GLViewPagerViewControllerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLViewPagerViewControllerUITests-frameworks.sh"; sourceTree = "<group>"; };
 		409DDDAAB8C8BB4515D9C391AE898151 /* Pods-GLViewPagerViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLViewPagerViewController.debug.xcconfig"; sourceTree = "<group>"; };
-		4C6FE7CD2B82C37E0D01095A36CE784C /* libPods-GLViewPagerViewControllerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GLViewPagerViewControllerUITests.a"; path = "libPods-GLViewPagerViewControllerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6FE7CD2B82C37E0D01095A36CE784C /* libPods-GLViewPagerViewControllerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GLViewPagerViewControllerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59236C16C8D1E3EDB5E139B5823EAB07 /* Pods-GLViewPagerViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLViewPagerViewController-dummy.m"; sourceTree = "<group>"; };
 		65EBFABB539109C59C810DA8A5848E46 /* GLViewPagerViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GLViewPagerViewController-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -50,7 +52,9 @@
 		7279AFE2D373425C114BE3916B428AF2 /* GLViewPagerViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLViewPagerViewController.xcconfig; sourceTree = "<group>"; };
 		75F787501CF92A82233A7DECB142FE15 /* Pods-GLViewPagerViewController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLViewPagerViewController-acknowledgements.plist"; sourceTree = "<group>"; };
 		82512F1DFC636EF7B02BFFDEA8B4B083 /* Pods-GLViewPagerViewControllerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLViewPagerViewControllerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5043FF9274B7D130069B2F2 /* MRPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRPageController.h; sourceTree = "<group>"; };
+		A5043FFA274B7D130069B2F2 /* MRPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRPageController.m; sourceTree = "<group>"; };
 		AAF0DBE9E64BF8CF0CC72165101F0EA0 /* GLViewPagerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLViewPagerViewController.h; sourceTree = "<group>"; };
 		AC501DA83AE8431EAED888B8EC677C05 /* GLViewPagerViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLViewPagerViewController-prefix.pch"; sourceTree = "<group>"; };
 		AD497A6F1AFB44583AB872A1C17CAF90 /* Pods-GLViewPagerViewControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLViewPagerViewControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,10 +160,11 @@
 		8EB9420BAA3F5E63ABD71EE19C5D9A83 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A5043FF9274B7D130069B2F2 /* MRPageController.h */,
+				A5043FFA274B7D130069B2F2 /* MRPageController.m */,
 				AAF0DBE9E64BF8CF0CC72165101F0EA0 /* GLViewPagerViewController.h */,
 				D02F6C52FC245FE5E5E103C51AEFDD3D /* GLViewPagerViewController.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -186,7 +191,6 @@
 			children = (
 				8EB9420BAA3F5E63ABD71EE19C5D9A83 /* Classes */,
 			);
-			name = GLViewPagerViewController;
 			path = GLViewPagerViewController;
 			sourceTree = "<group>";
 		};
@@ -220,6 +224,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5043FFB274B7D130069B2F2 /* MRPageController.h in Headers */,
 				8D71811305AD43D7D21734366AEA463D /* GLViewPagerViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +297,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -311,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5043FFC274B7D130069B2F2 /* MRPageController.m in Sources */,
 				0C6943DC283A6D9AE762B182E6EAE05F /* GLViewPagerViewController-dummy.m in Sources */,
 				863E8F1C4C075AE810908CF87398C8D7 /* GLViewPagerViewController.m in Sources */,
 			);

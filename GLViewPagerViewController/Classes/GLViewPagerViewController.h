@@ -136,7 +136,16 @@ contentViewControllerForTabAtIndex:(NSUInteger)index;
 @property (nonatomic,assign)GLTabAnimationType tabAnimationType;
 /** 支持阿拉伯 when ture, all layout will reverse*/
 @property (nonatomic,assign)BOOL supportArabic;
- 
+
+@property (nonatomic,assign)BOOL isWalkThrough;
+@property (nonatomic,assign)BOOL isScrollDisable;
+@property (nonatomic,assign)BOOL isBounceDisable;
+
+@property (nonatomic,strong)UIScrollView *tabContentView;
+@property (nonatomic,strong)UIView *indicatorView;
+@property (nonatomic,strong)UIPageViewController *pageViewController;
+@property (nonatomic,strong) UIColor *bgColor;
+
 
 /** 重新加载数据,会调用DataSource方法并重新构建视图 */
 - (void)reloadData;
@@ -147,6 +156,12 @@ contentViewControllerForTabAtIndex:(NSUInteger)index;
  @param index 标签Index
  @return 返回标签控件
  */
+
+- (void)_selectTab:(NSUInteger)tabIndex animate:(BOOL)animate;
+- (UIColor *)colorFromHexString:(NSString *)hexString;
+- (void)_disableViewPagerScroll;
+- (void)_enableViewPagerScroll;
+
 - (UIView *)tabViewAtIndex:(NSUInteger)index;
 
 @end

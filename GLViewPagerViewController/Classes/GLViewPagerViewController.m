@@ -50,12 +50,9 @@ static const CGFloat kAnimationTabDuration = 0.3;
 static const GLTabAnimationType kTabAnimationType = GLTabAnimationType_none;
 
 @interface GLViewPagerViewController ()<UIPageViewControllerDelegate,UIPageViewControllerDataSource,UIScrollViewDelegate>
-@property (nonatomic,strong)UIPageViewController *pageViewController;
 @property (nonatomic,strong)NSMutableArray <UIViewController *>*contentViewControllers;
 @property (nonatomic,strong)NSMutableArray <UIView *>*contentViews;
-@property (nonatomic,strong)UIScrollView *tabContentView;
 @property (nonatomic,strong)NSMutableArray <UIView *>*tabViews;
-@property (nonatomic,strong)UIView *indicatorView;
 @end
 
 @implementation GLViewPagerViewController {
