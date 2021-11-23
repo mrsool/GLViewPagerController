@@ -60,6 +60,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.shouldShowShadowAroundTab = false;
     self.navigationItem.title = @"Paged Tabs";
     // Do any additional setup after loading the view.
     /// 设置数据源

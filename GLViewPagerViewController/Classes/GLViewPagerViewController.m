@@ -584,11 +584,13 @@ static const GLTabAnimationType kTabAnimationType = GLTabAnimationType_none;
     tabContentViewFrame.origin.y = topLayoutGuide;
     self.tabContentView.frame = tabContentViewFrame;
    
-    self.tabContentView.layer.shadowColor = [UIColor colorWithHue:0.0 saturation:0.0 brightness:0.0 alpha:0.19].CGColor;
-    self.tabContentView.layer.masksToBounds = false;
-    self.tabContentView.layer.shadowOffset = CGSizeMake(0, 3);
-    self.tabContentView.layer.shadowRadius =  6;
-    self.tabContentView.layer.shadowOpacity = 1 ;
+    if (self.shouldShowShadowAroundTab) {
+        self.tabContentView.layer.shadowColor = [UIColor colorWithHue:0.0 saturation:0.0 brightness:0.0 alpha:0.19].CGColor;
+        self.tabContentView.layer.masksToBounds = false;
+        self.tabContentView.layer.shadowOffset = CGSizeMake(0, 3);
+        self.tabContentView.layer.shadowRadius =  6;
+        self.tabContentView.layer.shadowOpacity = 1 ;
+    }
 
     /** 布局PageViewController */
     CGRect pageViewCtrlFrame = self.pageViewController.view.frame;

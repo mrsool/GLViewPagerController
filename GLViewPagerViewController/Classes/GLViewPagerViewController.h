@@ -137,6 +137,7 @@ contentViewControllerForTabAtIndex:(NSUInteger)index;
 /** 支持阿拉伯 when ture, all layout will reverse*/
 @property (nonatomic,assign)BOOL supportArabic;
 
+@property (nonatomic,assign)BOOL shouldShowShadowAroundTab;
 @property (nonatomic,assign)BOOL isWalkThrough;
 @property (nonatomic,assign)BOOL isScrollDisable;
 @property (nonatomic,assign)BOOL isBounceDisable;
