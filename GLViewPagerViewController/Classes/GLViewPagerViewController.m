@@ -37,7 +37,7 @@
 #define kPageViewCtrlBackgroundColor    [UIColor whiteColor]
 
 
-static const CGFloat kTabHeight = 46
+static const CGFloat kTabHeight = 46;
 static const CGFloat kTabWidth = 128.0;
 static const CGFloat kIndicatorHeight = 4.0;
 static const CGFloat kIndicatorWidth = 128.0;
